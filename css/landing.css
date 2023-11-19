@@ -1,0 +1,264 @@
+/* BANNER */
+.banner .container img{
+    height: 100vh;
+    width: 100%;
+}
+/* ----GIFT-STEP */
+.gift-step .container {
+    height: 290vh;
+}
+.banner-gift_step {
+    height: 100% ;
+}
+.banner-gift_step img{
+    height: inherit ;
+}
+/* gift */
+.gift .container {
+    height: 165vh;
+    align-items: unset;
+    gap: 7vh;
+    top: 32%;
+}
+.gift-layout1 {
+    width: 685px;
+    height: 1370px;
+}
+.gift-layout1_inner {
+    height: 850px;
+    width: 685px;
+    background-image: url("../images/ip15.png");
+    background-color: unset;
+    background-size: 100%;
+    background-repeat: no-repeat    ;
+    padding-top: 580px;
+    text-align: center;
+}
+
+.gift-layout1_img{
+    margin-top: 50px;
+    width: 640px;
+    height: 425px;
+    top: 80%;
+    left: 60%;
+}
+.gift-layout1_img img {
+    transform: rotateY(180deg);
+}
+
+.gift-layout2 {
+    height: 1375px;
+    width: 815px;
+    gap: 9vh;
+    margin-right: 95px;
+}
+.gift-item {
+    width: 405px;
+    height: 1375px;
+    padding-top: 14px;
+}
+.gift-item_inner {
+    width: 405px;
+    height: 555px;
+    margin-bottom: 45px;
+}
+.gift-item_text {
+    width: 380px;
+    height: 145px;
+    text-align: center;
+    top: 90%;
+}
+.gift-item_text1 {
+    margin-top: 50px;
+    width: 380px;
+    height: 145px;
+    text-align: center;
+    top: 90%;
+}
+.gift-item_img {
+    height: 440px;
+}
+.gift-item_img img {
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px 0px #CD603C;
+}
+
+/* STEP */
+.step .container {
+    height: 128vh;
+    top: 80%;
+}
+.step-title {
+    width: 60%;
+    height: 13vh;
+    border: 3px solid #EAC0A3;
+    border-bottom: none;
+    border-radius: 25px 25px 0 0;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.step-inner {
+    width: 82%;
+    height: 95vh;
+    background-color: #FFFFFF;
+}
+/* INFORMATION */
+.information .container {
+    height: 110vh;
+    background-color: #FCE7DE;
+    padding-top: 40px;
+}
+.information-title {
+    text-align: center;
+    height: 53px;
+    margin-bottom: 20px;
+}
+.information-title span {
+    color: #DD070F;
+}
+.information-enter {
+    width: 75%;
+    height: 650px;
+    background-image: linear-gradient(to right, #ED4711, #910000);
+    border-radius: 50px;
+    border: 5px solid #EAC0A3;
+    box-shadow: 0px 20px 8px 0 rgba(0, 0, 0, 0.2), 20px 20px 25px -5px rgba(0, 0, 0, 0.19) inset;
+}
+.enter-text {
+    width: 82%;
+    height: 480px;
+    padding-top: 20px;
+}
+.enter-text_item {
+    margin: 30px 0;
+}
+.enter-note {
+    margin-top: 25px;
+    width: 90%;
+    height: 65px;
+    text-align: center;
+}
+.enter-note p {
+    font-size: 23px;
+    color: #FFFFFF;
+    font-family: "Averta2 PE";
+}
+.send-information {
+    position: relative;
+    width: 450px;
+    height: 104px;
+    background-image: linear-gradient(to right, #FC3B0E, #BB1B09);
+    box-shadow: 0px 7px 3px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    border: 4px solid #EAC0A3;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+.img-send {
+    width: 175px;
+    height: 90px;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+/* LIST */
+.list  .container {
+    height: 70vh;
+    /* background-image: url("../images/bg-list.png");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-image: linear-gradient(to right, rgb(9, 78, 191), rgb(33, 47, 110)); */
+}
+.bg-list {
+    height: inherit;
+}
+.list-title {
+    top: 20%;
+    left: 50%;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+}
+.list-table {
+    top: 63%;
+    left: 50%;
+    width: 78%;
+    height: 53%;
+    background-image: url("../images/bg-inner_table.png") top center no-repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.list-table table {
+    height: 100%;
+}
+.thead-list tr th{
+    border: 1px solid;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Averta3 PE";
+}
+.tbody-list tr td{
+    border: 1px solid;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Averta3 PE";
+    color: #FFFFFF;
+}
+.item-list1 {
+    width: 150px;
+}
+.item-list2 {
+    width: 300px;
+}
+/* RATING */
+.ratings .container {
+    height: 95vh;
+    background-color: #FCE7DE;
+    padding-top: 4%;
+}
+.raitings-title {
+    width: 750px;
+    height: 104px;
+    background-image: linear-gradient(to right, #FC3B0E, #BB1B09);
+    box-shadow: 0px 7px 3px 0px #CD603C;
+    border-radius: 35px;
+    border: 4px solid #EAC0A3;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.table-raitings {
+    width: 80%;
+    height: 540px;
+    background-color: #FFFFFF;
+}
+.th-raiting {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Averta3 PE";
+}
+.td-raiting {
+    text-align: center;
+}
+/* CONTACT */
+.contact .container {
+    height: 50vh;
+}
+.contact .container img {
+    height: inherit;
+}
+
+/* FOOTER */
+footer .container {
+    height: 20vh;
+    border-top: 0.5px solid #FFFFFF;
+}
+footer .container img{ 
+    height: inherit;
+}
+

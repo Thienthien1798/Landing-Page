@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Averta1 PE";
+    src: url("../Fonts/avertape-regular.otf");
+}
+@font-face {
+    font-family: "Averta2 PE";
+    src: url("../Fonts/avertape-regularitalic.otf");
+}
+@font-face {
+    font-family: "Averta3 PE";
+    src: url("../Fonts/avertape-semibold.otf");
+}
+@font-face {
+    font-family: "Averta4 PE";
+    src: url("../Fonts/avertape-semibolditalic.otf");
+}
+@font-face {
+    font-family: "Averta5 PE";
+    src: url("../Fonts/avertape-bold.otf");
+}
+@font-face {
+    font-family: "Averta6 PE";
+    src: url("../Fonts/Averta\ Black\ Italic.otf");
+}
+@font-face {
+    font-family: "Futura";
+    src: url("../Fonts/Elle\ Futura-Bold.otf");
+}
+@font-face {
+    font-family: "Androgyne";
+    src: url("../Fonts/SVN-Androgyne\ copy.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto-Medium.ttf");
+}
+
+.font-title1 {
+    font-family: "Averta1 PE", sans-serif;
+    font-size: 38px;
+    word-spacing: 1px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.font-title2 {
+    font-family: "Averta5 PE", sans-serif;
+    font-size: 42px;
+    word-spacing: 1px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+
+.font-layout {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Averta5 PE", sans-serif;
+    color: #FFFFFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Averta PE", serif;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.max-w {
+    max-width: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+.w-inherrit {
+    width: inherit;
+    height: inherit;
+}
+
+.mg-auto {
+    margin: auto;
+}
+
+.ds-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linear-red {
+    background-image: linear-gradient(to right, #ED4711, #910000);
+}
+.po-rel {
+    position: relative;
+}
+.po-ap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* GIFT */
+.font-number {
+    font-size: 75px;
+    margin-right: 8px;
+    font-weight: 300;
+    font-family: "Androgyne";
+    color: #004FFF;
+    word-spacing: 3px;
+    text-shadow: 3px 2px 1px #FFFFFF, 0px -3px 1px #FFFFFF, 9px 1px 11px rgb(97, 92, 92);
+}
+.font-number_ip {
+    font-size: 105px;
+    font-weight: 550;
+}
+.font-item {
+    font-size: 35px;
+    font-weight: 600;
+    color: #004FFF;
+    font-family: "Averta4 PE";
+    line-height: 0.5;
+}
+.font-item_vocher1 {
+    line-height: 1.4;
+}
+.font-item_vocher2 {
+    font-weight: 900;
+    font-family: "Averta6 PE";
+    line-height: 1.4;
+}
+.font-item_texip {
+    color: #FFEEBA;
+    font-size: 42px;
+    font-weight: 550;
+}
+/* LIST */
+
