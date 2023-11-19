@@ -37,7 +37,7 @@
 
 .font-title1 {
     font-family: "Averta1 PE", sans-serif;
-    font-size: 38px;
+    font-size: 36px;
     word-spacing: 1px;
     color: #FFFFFF;
     font-weight: 900;
@@ -45,7 +45,7 @@
 
 .font-title2 {
     font-family: "Averta5 PE", sans-serif;
-    font-size: 42px;
+    font-size: 40px;
     word-spacing: 1px;
     color: #FFFFFF;
     font-weight: 900;
@@ -139,7 +139,7 @@ body {
 }
 .font-item_texip {
     color: #FFEEBA;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 550;
 }
 /* LIST */
