@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Vus referral</title>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/landing.css">
@@ -19,14 +19,14 @@
     </div>
 
     <!-- GIFT-STEP -->
-    <div class="gift-step max-w po-rel">
-        <div class="container">
+    <div class="gift-step max-w ">
+        <div class="container po-rel">
             <div class="banner-gift_step max-w">
                 <img class="w-100" src="./images/bg-gift_step.png" alt="gift-step">
             </div>
             <!-- GIFT -->
             <div class="gift max-w">
-                <div class="container max-w ds-flex po-ap">
+                <div class="container ds-flex po-ap">
                     <div class="gift-layout1 po-rel">
                         <div class="gift-layout1_inner w-inherrit">
                             <span class="font-number_ip font-number">6+</span>
@@ -55,6 +55,7 @@
                                     <span class="font-number">3</span>
                                     <span class="font-item">Lượt giới thiệu <br> học viên mới thành công</span>
                                 </div>
+
                             </div>
                         </div>
                         <div class="gift-item">
@@ -85,7 +86,7 @@
             <!-- STEP -->
             <div class="step max-w ">
                 <div class="container w-100 po-ap">
-                    <div class="step-title mg-auto linear-red">
+                    <div class="step-title mg-auto linear-red ds-flex">
                         <span class="font-title1">4 BƯỚC ĐƠN GIẢN ĐỂ GIỚI THIỆU HỌC VIÊN MỚI</span>
                     </div>
                     <div class="step-inner mg-auto">
@@ -98,11 +99,11 @@
 
     <!-- INFORMATION -->
     <div class="information max-w">
-        <div class="container max-w">
+        <div class="container max-w po-rel">
             <div class="information-title mg-auto max-w">
                 <span class="font-title1">ĐIỀN THÔNG TIN BẠN MỚI NGAY!</span>
             </div>
-            <div class="information-enter mg-auto linear-red bg-img">
+            <div class="information-enter mg-auto">
                 <div class="enter-text mg-auto">
                     <div class="enter-text_item">
                         <span class="font-title1">HỌ VÀ TÊN:</span>
@@ -145,36 +146,30 @@
                 <span class="font-title2">DANH SÁCH HỌC VIÊN MỚI ĐÃ ĐƯỢC GIỚI THIỆU</span>
             </div>
             <div class="list-table mg-auto po-ap">
-                <table class="w-100 mg-auto">
-                    <thead class="thead-list">
-                        <tr>
-                            <th class="item-list1">STT</th>
-                            <th class="item-list2">HỌ VÀ TÊN</th>
-                            <th class="item-list3">SỐ ĐIỆN THOẠI</th>
-                            <th class="item-list4">NGÀY SINH</th>
-                            <th class="item-list5">KHU VỰC HỌC</th>
-                            <th class="item-list6">CHƯƠNG TRÌNH HỌC</th>
-                        </tr>
-                    </thead>
-                    <tbody class="tbody-list">
-                        <tr>
-                            <td class="item-list1">1</td>
-                            <td class="item-list2">Nguyễn Văn A</td>
-                            <td class="item-list3"></td>
-                            <td class="item-list4"></td>
-                            <td class="item-list5"></td>
-                            <td class="item-list6"></td>
-                        </tr>
-                        <tr>
-                            <td class="item-list1">2</td>
-                            <td class="item-list2"></td>
-                            <td class="item-list3"></td>
-                            <td class="item-list4"></td>
-                            <td class="item-list5"></td>
-                            <td class="item-list6"></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="list-layout ds-flex">
+                    <div class="list-item1 list-item bg-list1"><h3 class="font-list-item">STT</h3></div>
+                    <div class="list-item2 list-item bg-list2"><h3 class="font-list-item">HỌ VÀ TÊN</h3></div>
+                    <div class="list-item3 list-item bg-list1"><h3 class="font-list-item">SỐ ĐIỆN THOẠI</h3></div>
+                    <div class="list-item4 list-item bg-list2"><h3 class="font-list-item">NGÀY SINH</h3></div>
+                    <div class="list-item5 list-item bg-list1"><h3 class="font-list-item">KHU VỰC HỌC</h3></div>
+                    <div class="list-item6 list-item bg-list2"><h3 class="font-list-item">CHƯƠNG TRÌNH HỌC</h3></div>
+                </div>
+                <div class="list-layout ds-flex">
+                    <div class="list-item1 list-item bg-list3"><span class="font-list-item1">1</span></div>
+                    <div class="list-item2 list-item bg-list4"><span class="font-list-item1">Nguyễn Văn A</span></div>
+                    <div class="list-item3 list-item bg-list3"></div>
+                    <div class="list-item4 list-item bg-list4"></div>
+                    <div class="list-item5 list-item bg-list3"></div>
+                    <div class="list-item6 list-item bg-list4"></div>
+                </div>
+                <div class="list-layout ds-flex">
+                    <div class="list-item1 list-item bg-list1"><span class="font-list-item1">2</span></div>
+                    <div class="list-item2 list-item bg-list2"></div>
+                    <div class="list-item3 list-item bg-list1"></div>
+                    <div class="list-item4 list-item bg-list2"></div>
+                    <div class="list-item5 list-item bg-list1"></div>
+                    <div class="list-item6 list-item bg-list2"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -184,30 +179,68 @@
             <div class="raitings-title mg-auto">
                 <span class="font-title2">BẢNG XẾP HẠNG NHÀ KẾT NỐI</span>
             </div>
-            <table class="table-raitings mg-auto">
-                <thead>
-                    <tr>
-                        <th class="th-raiting">STT</th>
-                        <th class="th-raiting">THÔNG TIN <br> NGƯỜI GIỚI THIỆU</th>
-                        <th class="th-raiting">SỐ LƯỢNG LƯỢT GIỚI THIỆU THÀNH CÔNG <br> HỌC VIÊN MỚI</th>
-                        <th class="th-raiting">XẾP HẠNG</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="td-raiting">1</td>
-                        <td class="td-raiting">Nguyễn Văn A</td>
-                        <td class="td-raiting"></td>
-                        <td class="td-raiting"></td>
-                    </tr>
-                    <tr>
-                        <td class="td-raiting">1</td>
-                        <td class="td-raiting"></td>
-                        <td class="td-raiting"></td>
-                        <td class="td-raiting"></td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="raitings-table mg-auto">
+                <div class="raitings-inner1 w-100">
+                    <div class="raitings-layout1 ds-flex">
+                        <div class="raitings-item w-item1">
+                            <h3>STT</h3>
+                        </div>
+                        <div class="raitings-item w-item2">
+                            <h3>THÔNG TIN <br> NGƯỜI GIỚI THIỆU</h3>
+                        </div>
+                        <div class="raitings-item w-item3">
+                            <h3>SỐ LƯỢNG LƯỢT GIỚI THIỆU THÀNH CÔNG <br> HỌC VIÊN MỚI</h3>
+                        </div>
+                        <div class="raitings-item w-item4">
+                            <h3>XẾP HẠNG</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="raitings-inner2 w-100">
+                    <div class="bg-shadow_layout">
+                        <img src="./images/bg-shadow_layoutraiting.png" alt="bg-shadow_layoutraiting">
+                    </div>
+                    <div class="raitings-layout2 w-100 ds-flex ">
+                        <div class="bg-number_item raitings-item2 w-item1 po-rel">
+                            <img class="po-ap" src="./images/bg-number_raitings.png" alt="bg-number_raitings">
+                            <div class="text-number_raitings po-ap">
+                                <h2>1</h2>
+                            </div>
+                        </div>
+                        <div class="raitings-item2 w-item2">
+                            <span>Nguyễn Văn A</span>
+                        </div>  
+                        <div class="raitings-item2 w-item3">
+                            <span></span>
+                        </div>
+                        <div class="raitings-item2 w-item4">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="raitings-inner2 w-100">
+                    <div class="bg-shadow_layout">
+                        <img src="./images/bg-shadow_layoutraiting.png" alt="bg-shadow_layoutraiting">
+                    </div>
+                    <div class="raitings-layout2 w-100 ds-flex ">
+                        <div class="bg-number_item raitings-item2 w-item1 po-rel">
+                            <img class="po-ap" src="./images/bg-number_raitings.png" alt="bg-number_raitings">
+                            <div class="text-number_raitings po-ap">
+                                <h2>2</h2>
+                            </div>
+                        </div>
+                        <div class="raitings-item2 w-item2 border-none">
+                            <span></span>
+                        </div>  
+                        <div class="raitings-item2 w-item3 border-none">
+                            <span></span>
+                        </div>
+                        <div class="raitings-item2 w-item4 border-none">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
